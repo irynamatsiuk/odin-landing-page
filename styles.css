@@ -30,7 +30,7 @@ header, .hero {
     font-size: 18px;
     color: #E5E7EB;
     display: flex;
-    padding:50px 100px;
+    padding: 5% 15%;
 }
 
 .hero {
@@ -70,11 +70,11 @@ h2 {
 }
 
 img {
-    max-width: 300px;
-    min-width: 100px;
+    max-width: 200px;
+    /* min-width: 100px; */
 }
 .container {
-    padding:50px 100px;
+    padding: 5% 15%;
     display: flex;
     justify-content: space-evenly;
     gap: 20px;
@@ -83,6 +83,8 @@ img {
 .container-item {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .text {
@@ -93,7 +95,7 @@ img {
     background-color: #E5E7EB;
     display: flex;
     flex-direction: column;
-    padding:50px 200px;
+    padding: 5% 20%;
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
@@ -106,7 +108,7 @@ img {
 }
 
 .call {
-    margin:100px 100px;
+    margin: 5% 15%;;
     padding: 30px 0;
     border-radius: 10px;
     background-color: #3882f6;
